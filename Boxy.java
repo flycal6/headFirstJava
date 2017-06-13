@@ -1,7 +1,9 @@
 import java.io.*;
 
-public class Box implements Serializable {
+public class Boxy implements Serializable {
 
+    private static final long serialVersionUID = 883791634941203387L;
+    
     private int width;
     private int height;
 
@@ -14,7 +16,7 @@ public class Box implements Serializable {
     }
 
     public static void main(String[] args) {
-        Box myBox = new Box();
+        Boxy myBox = new Boxy();
         myBox.setWidth(50);
         myBox.setHeight(20);
 
