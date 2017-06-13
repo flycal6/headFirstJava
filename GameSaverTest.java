@@ -40,6 +40,8 @@ public class GameSaverTest {
 }
 
 class GameCharacter implements Serializable {
+    private static final long serialVersionUID = -963801666295510543L;
+
     int power;
     String type;
     String [] weapons;
