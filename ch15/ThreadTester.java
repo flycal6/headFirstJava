@@ -26,5 +26,15 @@ class ThreadTester {
         myThread.start();
 
         System.out.println("back in main()");
+
+        ThreadTester t = new ThreadTester();
+
+        t.backInMain();
+
+        System.out.println("backInMain() finished");
+    }
+
+    public void backInMain() {
+        System.out.println("Method called from main()");
     }
 }
